@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 export const RutaProtegida = ({ children }) => {
   const navigate = useNavigate()
