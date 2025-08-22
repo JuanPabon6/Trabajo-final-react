@@ -102,12 +102,10 @@ export const CrudProveedores = () => {
     {isEditing ? "Editar Proveedor" : "Registrar Proveedor"}
   </h2>
 
-  {/* Formulario */}
   <form
     onSubmit={handleSubmit}
     className="space-y-4 bg-white shadow-lg rounded-2xl p-6"
   >
-    {/* Usuario */}
     <input
       type="text"
       name="username"
@@ -118,7 +116,6 @@ export const CrudProveedores = () => {
       required={!isEditing}
     />
 
-    {/* Contraseña */}
     <input
       type="password"
       name="password"
@@ -129,7 +126,6 @@ export const CrudProveedores = () => {
       required={!isEditing}
     />
 
-    {/* Nombre */}
     <input
       type="text"
       name="NameProveedor"
@@ -140,7 +136,6 @@ export const CrudProveedores = () => {
       required
     />
 
-    {/* Correo */}
     <input
       type="email"
       name="EmailProveedor"
@@ -151,7 +146,6 @@ export const CrudProveedores = () => {
       required
     />
 
-    {/* Teléfono */}
     <input
       type="text"
       name="PhoneProveedor"
@@ -162,7 +156,6 @@ export const CrudProveedores = () => {
       required
     />
 
-    {/* Botones */}
     <div className="flex gap-4">
       <button
         type="submit"
@@ -182,7 +175,6 @@ export const CrudProveedores = () => {
     </div>
   </form>
 
-  {/* Tabla de Proveedores */}
   <div className="overflow-x-auto">
     <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
       <thead className="bg-gray-100">

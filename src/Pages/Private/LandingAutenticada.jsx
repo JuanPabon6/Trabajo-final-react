@@ -46,7 +46,6 @@ export const LandingAutenticada = () => {
 
     return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-100 mt-18">
-  {/* Cliente */}
   {infoUsuario.role === "cliente" && (
     <div className="bg-white p-6 rounded-2xl shadow-lg mb-6 border border-gray-200">
       <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
@@ -63,7 +62,6 @@ export const LandingAutenticada = () => {
     </div>
   )}
 
-  {/* Proveedor */}
   {infoUsuario.role === "proveedor" && (
     <div className="bg-white p-6 rounded-2xl shadow-lg mb-6 border border-gray-200">
       <h3 className="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-2">
